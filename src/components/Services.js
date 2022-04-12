@@ -1,0 +1,84 @@
+const Services = () => {
+  return (
+    <section id="services">
+      <div className="container">
+        <div className="roww">
+          {/* Main Title */}
+          <div className="resumo_fn_main_title">
+            <h3 className="subtitle">Leistungen</h3>
+            <h3 className="title">Was ich biete</h3>
+            <p className="desc">
+              Ich helfe ehrgeizigen Unternehmen wie Ihrem, mehr Gewinn zu erzielen, indem ich Bekanntheit aufbaue, den Web-Traffic steigere, mit Kunden in Kontakt komme und den Gesamtumsatz steigere.
+
+            </p>
+          </div>
+          {/* /Main Title */}
+          {/* Services List */}
+          <div className="resumo_fn_service_list">
+            <ul>
+              
+              <li>
+                <div className="item">
+                  <div className="item_left">
+                    <h3>SEO & Content Marketing</h3>
+                    <p>
+                      Ich führe für Sie SEO-Massnahmen durch oder erstelle eine SEO-Strategie als Ihr persönlicher SEO-Freelancer.
+                    </p>
+                  </div>
+                  <div className="item_right">
+                    <p>Preise ab</p>
+                    <h3>CHF 99.-- / Stunde </h3>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="item">
+                  <div className="item_left">
+                    <h3>UI / UX Beratung</h3>
+                    <p>
+                      Ich helfe Ihnen bei der Überarbeitung von UI/UX. Bringen Sie Ihr Geschäfts auf das nächste Level. Wir erschaffen zusammen grossartige Erlebnisse für Kunden.
+                    </p>
+                  </div>
+                  <div className="item_right">
+                    <p>Preise ab</p>
+                    <h3>CHF 129.-- / Stunde </h3>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="item">
+                  <div className="item_left">
+                    <h3>Web-Relaunch</h3>
+                    <p>
+                      Ich helfe Ihnen bei der Überarbeitung von Ihres Onlineshops oder Webseite zu marketingzwecken. Sie kriegen eine moderne Webseite, die Conversions generiert.
+                    </p>
+                  </div>
+                  <div className="item_right">
+                    <p>Preise ab</p>
+                    <h3>CHF 129.-- / Stunde </h3>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="item">
+                  <div className="item_left">
+                    <h3>Business Development</h3>
+                    <p>
+                      Ich baue Ihre Online-Marke auf durch strategisch massgeschneiderte Lösungen. Ziel ist die digitale Neuausrichtung Ihres Geschäftsmodells.                    </p>
+                  </div>
+                  <div className="item_right">
+                    <p>Preise ab</p>
+                    <h3>CHF 149.-- / Stunde </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          {/* /Services List */}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Services;
