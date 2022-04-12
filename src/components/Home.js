@@ -28,7 +28,7 @@ const Home = ({isSubmit}) => {
             <p className="desc">
               Ich bin darauf spezialisiert, den organischen Traffic mit meinen SEO-Strategien zu vervielfachen. Als professioneller Online-Marketing-Freelancer aus der Schweiz, habe ich schon für viele bekannte Unternehmen gearbeitet. 
             </p>
-            <img src="img/signature.png" alt="image" />
+            <img src="img/unterschrift.webp" alt="Unterschrift" />
               </>
             }
           </div>

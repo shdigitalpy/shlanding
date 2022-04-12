@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
 import "../styles/globals.css";
 
@@ -6,6 +7,9 @@ function MyApp({ Component, pageProps }) {
 
   const [isSubmit, setIsSubmit] = useState(false);
 
+  const site = "https://sandrohuber.website";
+  const canonicalURL1 = site + useRouter().pathname;
+  const canonicalURL = canonicalURL1 === '' ? ' ' : canonicalURL1
   
   return (
     <Fragment>
@@ -19,6 +23,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="img/favicon.ico" />
         <meta name="description" content="personal portfolio react template" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+        <link rel="canonical" href={canonicalURL} />
       </Head>
       <Component {...pageProps} setIsSubmit={setIsSubmit} isSubmit={isSubmit} />
     </Fragment>

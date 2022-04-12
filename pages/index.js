@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useEffect, useState } from "react";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
@@ -19,6 +20,10 @@ const Index = ({ isSubmit, setIsSubmit }) => {
 
   return (
     <Layout>
+    <Head>
+        <title>SEO Freelancer: Für Texte, E-Commerce, usw.</title>
+         <meta name="description" content="Sandro Huber ist ein SEO Freelancer in der Schweiz oder in Deutschland. Ab CHF 99.-- pro Stunde oder 0.50 CHF pro Wort." />
+        </Head>
       <Home isSubmit={isSubmit} />
       {/* /Home Section */}
       {/* About Section */}

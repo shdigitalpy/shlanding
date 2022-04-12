@@ -12,7 +12,7 @@ const About = () => {
             <h3 className="subtitle">Über mich</h3>
             <h3 className="title">Biografie</h3>
             <p className="desc">
-              {`Ich bin ein Freelancer im Bereich SEO und Online Marketing. Ich komme aus dem Kanton Thurgau in der Schweiz. Ich wurde schon für viele interessante Projekte gebucht. Ich liebe es mit neuen Leuten zu arbeiten, denn dies erweitert auch meinen Horizont.`}
+              {`Ich bin ein Freelancer für SEO und Online Marketing. Ich komme aus dem Kanton Thurgau in der Schweiz. Ich wurde schon für viele interessante Projekte gebucht. Ich liebe es mit neuen Leuten zu arbeiten, denn dies erweitert auch meinen Horizont.`}
             </p>
           </div>
           {/* /Main Title */}
@@ -133,7 +133,7 @@ const About = () => {
                           <h5>SH Digital GmbH</h5>
                           <span>( 2020 — heute )</span>
                         </div>
-                        <h3>Geschäftsführer</h3>
+                        <h3>Geschäftsführer, SEO-Experte</h3>
                         <p>
                           Als Geschäftsführer kümmere ich mich um die Führung der Mitarbeiter, Betreuung der Kunden und Strategie der Kunden-Projekte. Ich arbeite zudem an der Umsetzung bei einigen SEO-Projekten selbst mit.{" "}
                         </p>
@@ -145,7 +145,7 @@ const About = () => {
                           <h5>Arrigato GmbH</h5>
                           <span>( 2014 — 2020 )</span>
                         </div>
-                        <h3>Co - Founder, Head of Digital Marketing im E-Commerce</h3>
+                        <h3>Co - Founder, Head of Digital Marketing und SEO im E-Commerce</h3>
                         <p>
                           Kümmerte mich um die strategische Digitalisierung des gesamten Unternehmens. Und insbesondere das Wachstum auf sämtlichen Online-Kanälen (SEO, Webshop, Paid Ads, Social Media).{" "}
                         </p>
@@ -236,54 +236,54 @@ const About = () => {
                       <h3 className="progress_title">SEO</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "8%" }}
+                        style={{ right: "2%" }}
                       >
-                        92%
+                        98%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "92%" }} />
+                        <div className="progress_bg" style={{ width: "98%" }} />
                       </div>
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={95}>
+                  <div className="progress_item open" data-value={92}>
                     <div className="item_in">
                       <h3 className="progress_title">HTML5 &amp; CSS</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "5%" }}
+                        style={{ right: "8%" }}
                       >
-                        95%
+                        92%
                       </span>
                       <div className="bg_wrap">
                         <div className="progress_bg" style={{ width: "95%" }} />
                       </div>
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={80}>
+                  <div className="progress_item open" data-value={90}>
                     <div className="item_in">
                       <h3 className="progress_title">React</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "20%" }}
+                        style={{ right: "10%" }}
                       >
-                        80%
+                        90%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "80%" }} />
+                        <div className="progress_bg" style={{ width: "90%" }} />
                       </div>
                     </div>
                   </div>
-                   <div className="progress_item open" data-value={95}>
+                   <div className="progress_item open" data-value={90}>
                     <div className="item_in">
                       <h3 className="progress_title">Python</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "15%" }}
+                        style={{ right: "10%" }}
                       >
-                        85%
+                        90%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "85%" }} />
+                        <div className="progress_bg" style={{ width: "90%" }} />
                       </div>
                     </div>
                   </div>
@@ -307,7 +307,7 @@ const About = () => {
                 {/* Description */}
                 <div className="resumo_fn_desc">
                   <p>
-                   Ein freiberuflicher kreativer Marketer und Webentwickler mit einer Vorliebe für minimalistisches Design, 
+                   Ein freiberuflicher kreativer Marketer und Digitalexperte mit einer Vorliebe für minimalistisches Design, 
                    saubere Typografie und gut geschriebenen Code. 
 
 

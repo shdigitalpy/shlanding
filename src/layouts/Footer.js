@@ -12,16 +12,9 @@ const Footer = () => {
       <div className="footer_content">
         <div className="container">
           <p>
-            Copyright © {new Date().getFullYear()}. All rights reserved. <br />
-            Developed by{" "}
-            <a
-              className="fn__link"
-              href="https://www.sh-digital.ch/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              SH Digital
-            </a>
+            Copyright © {new Date().getFullYear()} Sandro Huber. All Rechte vorbehalten. <br />
+            {" "}
+            
           </p>
         </div>
       </div>

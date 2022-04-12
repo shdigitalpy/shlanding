@@ -26,7 +26,7 @@ const Services = () => {
                     </p>
                   </div>
                   <div className="item_right">
-                    <p>Preise ab</p>
+                    <p>Stundensatz ab</p>
                     <h3>CHF 99.-- / Stunde </h3>
                   </div>
                 </div>
@@ -62,13 +62,13 @@ const Services = () => {
               <li>
                 <div className="item">
                   <div className="item_left">
-                    <h3>Business Development</h3>
+                    <h3>SEA</h3>
                     <p>
-                      Ich baue Ihre Online-Marke auf durch strategisch massgeschneiderte Lösungen. Ziel ist die digitale Neuausrichtung Ihres Geschäftsmodells.                    </p>
+                      Ich richte Ihnen eine Google Ads oder Google Shopping Kampagne sowie ein entsprechendes Retargeting über Ihre Webseite ein.                     </p>
                   </div>
                   <div className="item_right">
-                    <p>Preise ab</p>
-                    <h3>CHF 149.-- / Stunde </h3>
+                    <p>Stundensatz ab</p>
+                    <h3>CHF 99.-- / Stunde </h3>
                   </div>
                 </div>
               </li>
