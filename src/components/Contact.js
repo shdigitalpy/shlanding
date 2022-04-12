@@ -31,7 +31,7 @@ const Submitting = () => {
 async function onSubmitForm(values) {
     let config = {
       method : 'post',
-      url: `${process.env.NEXT_PUBLIC_API_URL}/api/contact`,
+      url: `${process.env.NEXT_PUBLIC_API_URL}`,
       headers: {
         'Content-Type' : "application/json",
 
