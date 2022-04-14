@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,6 +13,7 @@
     "@heroicons/react": "^1.0.6",
     "axios": "^0.26.1",
     "next": "12.0.4",
+    "next-sitemap": "^2.5.20",
     "nodemailer": "^6.7.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",

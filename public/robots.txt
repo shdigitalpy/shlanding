@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sandrohuber.website
+
+# Sitemaps
+Sitemap: https://www.sandrohuber.website/sitemap.xml
