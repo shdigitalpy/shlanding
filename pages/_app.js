@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
 import "../styles/globals.css";
+import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
 
@@ -24,6 +25,10 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="personal portfolio react template" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
         <link rel="canonical" href={canonicalURL} />
+
+            
+
+  
       </Head>
       <Component {...pageProps} setIsSubmit={setIsSubmit} isSubmit={isSubmit} />
     </Fragment>
