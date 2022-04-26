@@ -216,7 +216,7 @@ async function onSubmitForm(values) {
             <h3>Widenacker 30, 8525 Niederneunforn, Schweiz</h3>
             <p>Phone</p>
             <h3>
-              <a href="tel:+41435082913">+41435082913</a>
+              <a href="tel:+41435082913">043 508 29 13</a>
             </h3>
             <p>
               <a className="fn__link" href="mailto:sandro@sh-digital.ch">
