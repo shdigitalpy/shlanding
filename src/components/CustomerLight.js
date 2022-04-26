@@ -59,6 +59,12 @@ const CustomerLight = () => {
                   <img src="img/trust/bank.webp" alt="" />
                 </a>
               </li>
+
+              <li>
+                <a href="" rel="noreferrer" target="_blank">
+                  <img src="img/trust/ecommerce.webp" alt="" />
+                </a>
+              </li>
              
             </ul>
           </div>

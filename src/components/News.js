@@ -30,6 +30,7 @@ const News = () => {
 
   const topics = [
 
+     { "id":11, "update": "11.04.2022", "name": "TikTok Nutzer", "url":"https://www.sh-digital.ch/tiktok-nutzer"},
     { "id":11, "update": "25.03.2022", "name": "Video SEO", "url":"https://www.sh-digital.ch/ratgeber/video-seo"},
     { "id":10, "update": "15.03.2022", "name": "Relaunch SEO", "url":"https://www.sh-digital.ch/ratgeber/relaunch-seo"},
     { "id":9, "update": "09.03.2022","name": "SEO-Kosten", "url":"https://www.sh-digital.ch/ratgeber/seo-kosten"},
