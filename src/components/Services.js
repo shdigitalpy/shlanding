@@ -27,7 +27,7 @@ const Services = () => {
                   </div>
                   <div className="item_right">
                     <p>Stundensatz ab</p>
-                    <h3>CHF 99.-- / Stunde </h3>
+                    <h3>Auf Anfrage </h3>
                   </div>
                 </div>
               </li>
@@ -41,7 +41,7 @@ const Services = () => {
                   </div>
                   <div className="item_right">
                     <p>Preise ab</p>
-                    <h3>CHF 129.-- / Stunde </h3>
+                    <h3>Auf Anfrage </h3>
                   </div>
                 </div>
               </li>
@@ -55,7 +55,7 @@ const Services = () => {
                   </div>
                   <div className="item_right">
                     <p>Preise ab</p>
-                    <h3>CHF 129.-- / Stunde </h3>
+                    <h3>Auf Anfrage </h3>
                   </div>
                 </div>
               </li>
@@ -68,7 +68,7 @@ const Services = () => {
                   </div>
                   <div className="item_right">
                     <p>Stundensatz ab</p>
-                    <h3>CHF 99.-- / Stunde </h3>
+                    <h3>CHF 149.-- / Stunde </h3>
                   </div>
                 </div>
               </li>
